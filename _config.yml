@@ -1,0 +1,25 @@
+# Site settings
+title: Kunta API
+header-img: img/main_banner.jpg
+email: info@metatavu.fi
+copyright_name: Metatavu Oy
+description: "Solution to combine municipality services under single API."
+baseurl: ""
+url: "https://metatavu.fi"
+twitter_username:
+github_username: otavanopisto/kunta-api
+facebook_username: 
+email_username:  info@metatavu.fi
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate]
